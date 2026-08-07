@@ -4,8 +4,10 @@
   "main": "src/index.ts",
   "compatibility_date": "2026-08-07",
   "observability": {
-    "enabled": true,
-    "head_sampling_rate": 1
+    "logs": {
+      "enabled": true,
+      "invocation_logs": true
+    }
   }
   // "compatibility_flags": [
   //   "nodejs_compat"
